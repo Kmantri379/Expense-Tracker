@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.expensetracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:4:5-20:19
+12        android:allowBackup="true"
+12-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:5:9-35
+13        android:debuggable="true"
+14        android:extractNativeLibs="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:6:9-43
+16        android:label="@string/app_name"
+16-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:7:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:8:9-54
+18        android:supportsRtl="true"
+18-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:9:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.ExpenseTracker" >
+20-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:10:9-52
+21        <activity
+21-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:11:9-120
+22            android:name="com.expensetracker.AboutActivity"
+22-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:11:19-48
+23            android:exported="false"
+23-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:11:49-73
+24            android:theme="@style/Theme.ExpenseTracker" />
+24-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:11:74-117
+25        <activity
+25-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:12:9-127
+26            android:name="com.expensetracker.ViewExpensesActivity"
+26-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:12:19-55
+27            android:exported="false"
+27-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:12:56-80
+28            android:theme="@style/Theme.ExpenseTracker" />
+28-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:12:81-124
+29        <activity
+29-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:13:9-125
+30            android:name="com.expensetracker.AddExpenseActivity"
+30-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:13:19-53
+31            android:exported="false"
+31-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:13:54-78
+32            android:theme="@style/Theme.ExpenseTracker" />
+32-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:13:79-122
+33        <activity
+33-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:14:9-19:20
+34            android:name="com.expensetracker.MainActivity"
+34-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:14:19-47
+35            android:exported="true"
+35-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:14:48-71
+36            android:theme="@style/Theme.ExpenseTracker" >
+36-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:14:72-115
+37            <intent-filter>
+37-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:15:13-18:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:16:17-69
+38-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:16:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:17:17-77
+40-->D:\ExpenseTracker_Project_Updated (1)\ExpenseTracker Project\app\src\main\AndroidManifest.xml:17:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

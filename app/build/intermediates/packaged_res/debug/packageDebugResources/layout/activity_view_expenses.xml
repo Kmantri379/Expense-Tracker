@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#F5F6FA">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="My Expenses" android:textSize="26sp" android:textStyle="bold" android:textColor="#17213A" />
+    <TextView android:id="@+id/totalView" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Total: ₹0.00" android:textSize="18sp" android:textStyle="bold" android:textColor="#304BB5"
+        android:padding="12dp" android:layout_marginTop="8dp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ListView android:id="@+id/expenseList" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="#FFFFFF" android:divider="#DDE1E9" android:dividerHeight="1dp" />
+        <TextView android:id="@+id/emptyView" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:gravity="center" android:text="No expenses added yet." android:textColor="#737B8D" />
+    </FrameLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Tap an expense to delete it." android:textColor="#555E73" android:padding="8dp" />
+    <Button android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Back to Home" />
+</LinearLayout>

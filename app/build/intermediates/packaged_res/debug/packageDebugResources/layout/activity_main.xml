@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal"
+    android:background="#F5F6FA">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Expense Tracker" android:textSize="28sp" android:textStyle="bold"
+        android:textColor="#17213A" android:gravity="center" android:layout_marginTop="28dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Manage your daily expenses" android:textSize="16sp" android:textColor="#555E73"
+        android:gravity="center" android:layout_marginTop="8dp" android:layout_marginBottom="28dp" />
+    <TextView android:id="@+id/totalView" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Total expenses: ₹0.00" android:textSize="20sp" android:textStyle="bold"
+        android:textColor="#304BB5" android:background="#E6ECFF" android:padding="18dp" />
+    <TextView android:id="@+id/countView" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Number of expenses: 0" android:textSize="16sp" android:textColor="#17213A"
+        android:padding="12dp" android:layout_marginBottom="18dp" />
+    <Button android:id="@+id/addButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Expense" />
+    <Button android:id="@+id/viewButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View Expenses" />
+    <Button android:id="@+id/aboutButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="About App" />
+</LinearLayout>

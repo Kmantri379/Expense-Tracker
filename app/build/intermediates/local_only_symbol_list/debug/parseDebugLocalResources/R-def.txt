@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+id aboutButton
+id addButton
+id amountInput
+id backButton
+id categoryInput
+id countView
+id emptyView
+id expenseList
+id nameInput
+id saveButton
+id totalView
+id viewButton
+layout activity_about
+layout activity_add_expense
+layout activity_main
+layout activity_view_expenses
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ExpenseTracker

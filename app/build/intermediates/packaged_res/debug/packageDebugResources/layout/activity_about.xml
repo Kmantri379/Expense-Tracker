@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:background="#F5F6FA">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="About Expense Tracker" android:textSize="26sp" android:textStyle="bold"
+        android:textColor="#17213A" android:layout_marginBottom="20dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Expense Tracker is a simple Android application for recording and managing daily expenses.\n\nFeatures:\n• Add an expense with name, amount and category\n• View saved expenses\n• Delete an expense\n• See the total amount spent\n\nAndroid concepts used:\n• Activities and explicit Intents\n• XML layouts\n• SQLite database\n• Input validation" android:textSize="17sp" android:textColor="#263238" android:lineSpacingExtra="5dp" />
+    <Button android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Back to Home" android:layout_marginTop="24dp" />
+</LinearLayout>

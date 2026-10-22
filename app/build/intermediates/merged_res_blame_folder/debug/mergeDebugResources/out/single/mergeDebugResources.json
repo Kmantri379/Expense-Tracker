@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.expensetracker.app-debug-4:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.expensetracker.app-main-6:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.expensetracker.app-debug-4:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.expensetracker.app-main-6:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.expensetracker.app-debug-4:/layout_activity_about.xml.flat",
+        "source": "com.expensetracker.app-main-6:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.expensetracker.app-debug-4:/layout_activity_add_expense.xml.flat",
+        "source": "com.expensetracker.app-main-6:/layout/activity_add_expense.xml"
+    },
+    {
+        "merged": "com.expensetracker.app-debug-4:/layout_activity_view_expenses.xml.flat",
+        "source": "com.expensetracker.app-main-6:/layout/activity_view_expenses.xml"
+    },
+    {
+        "merged": "com.expensetracker.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.expensetracker.app-main-6:/layout/activity_main.xml"
+    }
+]
